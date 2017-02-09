@@ -32,6 +32,8 @@
 
         <footer class="post-footer">
 
+        <div id="disqus_thread"></div>
+
         {{!-- Everything inside the #author tags pulls data from the author --}}
         {{#author}}
 
@@ -84,7 +86,18 @@
             {{/if}}
 
         </footer>
-        {{!-- Add Disqus code here --}}
+        <script>
+            var disqus_config = function () {
+            this.page.url = '{{url absolute="true"}}'; 
+            this.page.identifier = 'ghost-{{id}}'; 
+            };
+            (function() { 
+            var d = document, s = d.createElement('script');
+            s.src = '//blog-jeff-gosling-com.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+            })();
+        </script>
     </article>
 </main>
 
