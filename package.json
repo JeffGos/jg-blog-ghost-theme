@@ -1,0 +1,38 @@
+{
+    "name": "jg-blog",
+    "description": "My ghost theme",
+    "demo": "http://blog.jeff-gosling.com",
+    "version": "0.0.1",
+    "engines": {
+        "ghost": ">=0.11.3 <1.0.0"
+    },
+    "license": "MIT",
+    "screenshots": {
+    },
+    "author": {
+        "name": "Jeff Gosling",
+        "email": "jeffery.gosling@gmail.com",
+        "url": "http://jeff-gosling.com"
+    },
+    "gpm": {
+        "type": "theme",
+        "categories": [
+            "Clean",
+            "Blog",
+            "Responsive"
+        ]
+    },
+    "keywords": [
+        "ghost",
+        "theme",
+        "clean",
+        "blog",
+        "responsive"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jeffgos/jg-blog-ghost-theme"
+    },
+    "bugs": "https://github.com/jeffgos/jg-blog-ghost-theme/issues",
+    "contributors": "https://github.com/jeffgos/jg-blog-ghost-theme/graphs/contributors"
+}
